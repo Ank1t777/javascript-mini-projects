@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Key logger</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="app">
+      <h1>Key Logger</h1>
+      <p>Don't forget to stop this program before you shutdown your system</p>
+      <div class="button--section">
+        <button class="app--btn--start">start logging key press</button>
+        <button class="app--btn--stop">stop logging key press</button>
+      </div>
+      <div class="key--state-container">
+        <div class="key--log" id="key--log"></div>
+        <div class="key--state" id="key--state"></div>
+      </div>
+    </div>
+
+    <script src="./index.mjs" type="module"></script>
+  </body>
+</html>
