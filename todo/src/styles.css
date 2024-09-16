@@ -1,0 +1,56 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app--input--box {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.saved--inputs,
+li {
+  border-radius: 5px;
+}
+
+.saved--inputs {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  width: 224px;
+  margin: 5px auto;
+}
+li {
+  list-style-type: none;
+  width: 150px;
+  margin: 15px 15px 0px 0px;
+  background-color: wheat;
+  height: 30px;
+}
+
+.add--inputs {
+  background-color: rgb(67, 222, 67);
+  color: #1a1818;
+}
+.delete--input {
+  background-color: red;
+  border: none;
+}
+.add--inputs,
+.delete--input {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.delete--input:hover {
+  background-color: rgb(237, 114, 105);
+}
+.add--inputs:hover {
+  background-color: rgb(150, 241, 132);
+}
+
+.add--inputs:hover,
+.delete--input:hover {
+  cursor: pointer;
+}
